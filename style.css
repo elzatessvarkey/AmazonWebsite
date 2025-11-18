@@ -30,6 +30,8 @@
 
 .border{
     border: 1px solid transparent;
+    padding: 10px;
+    transition: border-color 0.2s ease;
 }
 
 .border:hover{
@@ -102,12 +104,12 @@
 /** fourth  and fifth box details **/
 
 .signin{
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     color: white;
 }
 
 .accountlist{
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: bold;
     color: white;
 }
@@ -127,13 +129,13 @@
     display:flex;
     background-color: #222f3d;
     color: white;
-    height: 35px;
+    height: 40px;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .panel-all{
-    font-size: 0.75rem;
+    font-size: 0.85rem;
 }
 
 .panel-options{
@@ -143,12 +145,71 @@
 .panel-options a{
     text-decoration: none;
     color: white;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     margin: 10px;
 }
 
 .panel-electronics{
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: bold;
+}
+
+/** main body details **/
+
+.herosection{
+    background-image: url("mainBg.jpg");
+    background-size: cover;
+    height: 390px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herocontent{
+    background-color: #F5F6F6;
+    font-size: 0.85rem;
+    height: 40px;
+    width: 90vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herocontent a{
+    text-decoration: none;
+}
+
+/** body box details **/
+
+.bodyboxes{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(208, 205, 205);
+}
+
+.box{
+    height: 350px;
+    width: 21%;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.boxcontentmargin{
+    margin: 1rem;
+}
+
+.boxcontentmargin img{
+    height: 250px;
+    width: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.boxcontentmargin a{
+    font-size: 0.85rem;
+    color: #2162A1;
+    text-decoration: none;
 }
