@@ -184,7 +184,7 @@
 
 /** body box details **/
 
-.bodyboxes{
+.bodyboxessingle{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(208, 205, 205);
@@ -212,4 +212,50 @@
     font-size: 0.85rem;
     color: #2162A1;
     text-decoration: none;
+}
+
+/** styling for boxes with multiple boxes within **/
+
+.bodyboxesmultiple{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(208, 205, 205);
+    height: 480px;
+}
+
+.boxes{
+    height: 400px;
+    width: 21%;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.boxmul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boxrow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Keeps text left-aligned like Amazon */
+}
+
+
+.boxrow img {
+    display: block;      /* Removes tiny gaps caused by inline-block images */
+    width: 130px;
+    height: 105px;
+}
+
+.boxrow p {
+    margin-top: 0px;     /* ← Controls distance between image and text */
+    margin-bottom: 2px;
+    font-size: 0.75rem;
+}
+
+#boxesText {
+    display: block;
+    margin-top: 12px;
 }
