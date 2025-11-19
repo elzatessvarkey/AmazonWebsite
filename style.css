@@ -21,7 +21,7 @@
 }
 
 .logo{
-    background-image: url("amazon-logo.png");
+    background-image: url("./images/amazon-logo.png");
     height: 50px;
     width: 100%;
     background-size: cover;
@@ -158,7 +158,7 @@
 /** main body details **/
 
 .herosection{
-    background-image: url("mainBg.jpg");
+    background-image: url("./images/mainBg.jpg");
     background-size: cover;
     height: 390px;
     width: 100vw;
